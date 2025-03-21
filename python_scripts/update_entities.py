@@ -1,4 +1,4 @@
-#group_entities = hass.states.get('group.all_lights').attributes['entity_id']
+# Example: Retrieve all light entities from a group
 #all_lights = []
 #for e in group_entities:
 #    all_lights.append(e)
@@ -7,7 +7,7 @@
 #hass.services.call('input_select', 'set_options', service_data)
 
 
-#group_entities = hass.states.get('group.all_lights').attributes['entity_id']
+# Example: Retrieve all light entities from a group
 #all_lights = []
 #for e in group_entities:
 #    all_lights.append(hass.states.get(e).attributes['friendly_name'])
